@@ -1,0 +1,79 @@
+@import "//cdn.jsdelivr.net/npm/font-kopub@1.0";
+    html {
+      font-size: 20px;
+      text-align: center;
+    }
+    body {
+      margin: 0;
+    }
+    .wrap
+    {
+      background-color: #262628;
+      padding: 2rem 5rem 5rem;
+    }
+    .wrapcontents {
+      background-color: #E4EDE8;
+      padding: 3rem;
+      width: 35rem;
+      margin: 0 auto;
+    }
+    .graphbar {
+      width: 35rem;
+      height: 2.7rem;
+      margin: 0 auto;
+      margin-bottom: 25px; /*추후에 제거할부분*/
+    }
+    .wrapgraph {
+      background-color: #262628;
+      float: left;
+      width: 73%;
+      height: 100%;
+      padding: 0;
+      border-radius: 13px;
+      overflow: hidden;
+    }
+    .content {
+      background-color: lightgray;
+      float: right;
+      width: 27%;
+      height: 100%;
+      padding: 0;
+    }
+    /*첫번째 그래프*/
+    .graph1 {
+      background-color: #AD233B;
+      width: 30%; /*이부분 퍼센트를 조절하면 됨*/
+      height: 100%;
+      float: left;
+      padding: 0%;
+    }
+    /*두번째 그래프*/
+    .graph2 {
+      background-color: #ADBE78;
+      width: 12%; /*이부분 퍼센트를 조절하면 됨*/
+      height: 100%;
+      float: left;
+      padding: 0%;
+    }
+    /*세번째 그래프*/
+    .graph3 {
+      background-color: #80A4D0;
+      width: 22%; /*이부분 퍼센트를 조절하면 됨*/
+      height: 100%;
+      float: left;
+      padding: 0%;
+    }
+    .snail {
+      padding: 10px;
+    }
+    .nametag {
+        position: relative;
+        text-align: left;
+    }
+    .name {
+      position: absolute;
+      top: 8%;
+      left: 5%;
+      font-family: KoPub Batang;
+      color: white;
+    }
